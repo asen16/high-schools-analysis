@@ -30,46 +30,37 @@ Please see our [Simulation Card](https://github.com/salesforce/ai-economist/blob
 
 Please see our [COVID-19 Simulation Card](https://github.com/salesforce/ai-economist/blob/master/COVID-19_Simulation-Card.pdf) for a review of the ethical aspects of the pandemic simulation (and as fitted for COVID-19).
 
-## Join us on Slack
+## Contact Us
 
-If you're interested in extending this framework, discussing machine learning for economics, and collaborating on research project:
-
-- join our Slack channel [aieconomist.slack.com](https://aieconomist.slack.com) using this [invite link](https://join.slack.com/t/aieconomist/shared_invite/zt-g71ajic7-XaMygwNIup~CCzaR1T0wgA), or
-- email us @ ai.economist@salesforce.com.
+If you're interested in extending this work, having an idea or having any questions:
+- email us @ barslan16@ku.edu.tr or asen16@ku.edu.tr.
 
 ## Installation Instructions
 
-To get started, you'll need to have Python 3.7+ installed.
+To get started, you'll need to have Python 3.6+ installed.
 
-### Using pip
-
-Simply use the Python package manager:
-
-```python
-pip install ai-economist
-```
 
 ### Installing from Source
 
 1. Clone this repository to your local machine:
 
   ```
-   git clone www.github.com/salesforce/ai-economist
+   git clone www.github.com/asen16/high-schools-analysis
    ```
 
-2. Create a new conda environment (named "ai-economist" below - replace with anything else) and activate it
+2. Change directory to the directory where requirements.txt is located.
+
 
   ```pyfunctiontypecomment
-   conda create --name ai-economist python=3.7 --yes
-   conda activate ai-economist
+   cd [Path]
    ```
 
-3. Either
+3. Run:
 
-   a) Edit the PYTHONPATH to include the ai-economist directory
-  ```
-   export PYTHONPATH=<local path to ai-economist>:$PYTHONPATH
+ ```pyfunctiontypecomment
+   pip install -r requirements.txt
    ```
+   in your shell.
 
    OR
 
