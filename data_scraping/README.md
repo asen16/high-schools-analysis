@@ -6,7 +6,9 @@ The program scrapes the data of students in a total of 10617 departments from 22
 
 Each department has 30 different datasheets. In this study, 3 datasheets were used to perform the necessary analyzes. Variables of other datasheets are shared at the end of the yok_data_scraper.py file for use in future studies.
 
+Each university is shown with a code on the website where the data was scraped. These codes are in the university_code.xlsx.
 
+Not all data are included in this repo. Only sample data for each university type are included.
 
 ## Starting Scraping
 
