@@ -44,6 +44,8 @@ data["high_school_dormitory"] = data["high_school_dormitory"].map({"Pansiyon(Kı
 #Instead of these values, we wrote 1 if the high school has a prep school and 0 if it does not.
 data["high_school_with_prep"] = data["high_school_with_prep"].map({"Hazırlık + 4 yıl":1, "4 yıl" : 0})
 
+university_exam_data=data
+
 
 #you can run the following loop to create the lists
 """
