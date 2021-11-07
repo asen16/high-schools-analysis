@@ -5,11 +5,9 @@ xlsxwriter
 selenium
 plotly
 xlrd
-statsmodels.formula.api
-statsmodels.stats.outliers_influence
-statsmodels.api
+statsmodels
 patsy
 seaborn
-matplotlib.pyplot
-stargazer.stargazer
-IPython.core.display
+matplotlib
+stargazer
+IPython
