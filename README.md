@@ -79,7 +79,7 @@ The code repository is organized into the following components:
 
 - The datasets are located in the `analysis/data` folder.
 - The graphs are located in the `analysis/graphs` folder.
-- The tabels are located in the `analysis/tabel` folder.
+- The tabels are located in the `analysis/table` folder.
 - The visualization and analysis programs are located in the `analysis` folder.
 - The raw data are located in the `data_scraping/DATA` folder.
 - The data scraping program is located in the `data_scraping` folder.
