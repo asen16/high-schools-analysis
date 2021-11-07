@@ -67,6 +67,3 @@ Run for data filtering:
    python graph_province_efficieny_factor_map.py
    ```
 
-- [`analysis`](https://github.com/asen16/high-schools-analysis/tree/main/analysis) : Shows how master data is filtered, analyzed and data visualized.
-- [`data_scraping`](https://github.com/asen16/high-schools-analysis/tree/main/data_scraping): Explains how raw data is scraped from its source.
-
