@@ -125,5 +125,4 @@ The code repository is organized into the following components:
 For the complete release history, see [CHANGELOG.md](https://www.github.com/salesforce/ai-economist/blob/master/CHANGELOG.md).
 
 ## License
-
-Foundation and the AI Economist are released under the [BSD-3 License](LICENSE.txt).
+Analysis of Public High Schools Admitting Students by Examination in Turkey is released under the [MIT License](LICENSE.txt).
