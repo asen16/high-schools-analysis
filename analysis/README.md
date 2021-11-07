@@ -33,33 +33,52 @@ If you're interested in extending this work, having an idea or having any questi
 
 or submit an issue.
 
-## Installation Instructions
+## Creating Tables
 
-To get started, you'll need to have Python 3.8+ installed.
+2. To generate Table 1 and Table 2:
+
+  ```pyfunctiontypecomment
+   python regression.py
+   ```
 
 
 ## Creating Graphs
 
-1. Clone this repository to your local machine:
-
-  ```
-   git clone www.github.com/asen16/high-schools-analysis
-   ```
-
-2. Change directory to the directory where requirements.txt is located.
-
+1. Change directory:
 
   ```pyfunctiontypecomment
    cd [Path]
    ```
 
-3. Run:
+2. To generate Figure 4:
+
+
+  ```pyfunctiontypecomment
+   python graph_high_school_exam_bubble.py
+   ```
+
+3. To generate Figure 5a:
 
  ```pyfunctiontypecomment
-   pip install -r requirements.txt
+   python graph_high_school_efficiency_factor_bubble.py
    ```
-   in your shell.
+   
+4. To generate Figure 5b:
 
+ ```pyfunctiontypecomment
+   python graph_high_school_efficiency_factor_bar.py
+   ```
+   
+4. To generate Figure 7a:
+
+ ```pyfunctiontypecomment
+   python graph_province_efficiency_factor_bubble.py
+   ```
+4. To generate Figure 7b:
+
+ ```pyfunctiontypecomment
+   python graph_province_efficieny_factor_map.py
+   ```
 
 Installation of Web Driver: You'll need to install the Web Driver to scrape data. You can follow the necessary installation steps from Selenium's documentation.
 
