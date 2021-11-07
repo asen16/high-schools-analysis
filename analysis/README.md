@@ -1,37 +1,21 @@
 # Analysis Part
 
+## Data Filtering
+[`data/public_high_schools_data.xlsx`] is the data reached as a result of cleaning and merging operations. Data sets of provinces, high schools and students were created by filtering this data:
+-[`data/public_high_schools_data.xlsx`]
+-[`data/public_high_schools_data.xlsx`]
+-[`data/public_high_schools_data.xlsx`]
+
+1. Change directory:
+
+  ```pyfunctiontypecomment
+   cd [Path]
+   ```
 
 
-
-
-This repo contains a flexible, easy to understand and modifiable foundation for scraping, cleaning, analyzing and visualizing **publicly available education data of Turkey.**
-
-Code was written in Python 3.8.5
-
-Along with the foundation, different studies can be done about high schools and universities in Turkey. We conducted a study on the efficiency of public high schools in Turkey, as detailed in the following papers:
-
-
-**[Analysis of Public High Schools Admitting Students by Examination in Turkey](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3939070)**,
-*Beyza Arslan, Anıl Şen.*
-
-
-If you use this code or data in your research, please cite us using this BibTeX entry:
-
-```
-@article{arslan2021analysis,
-  title={Analysis of Public High Schools Admitting Students by Examination in Turkey},
-  author={Arslan, Beyza and {\c{S}}en, An{\i}l},
-  journal={Available at SSRN 3939070},
-  year={2021}
-}
-```
-
-## Contact Us
-
-If you're interested in extending this work, having an idea or having any questions:
-- email us @ barslan16@ku.edu.tr or asen16@ku.edu.tr
-
-or submit an issue.
+  ```pyfunctiontypecomment
+   python data_filtering.py
+   ```
 
 ## Regression Analysis
 
@@ -50,11 +34,7 @@ or submit an issue.
 
 ## Creating Graphs
 
-1. Change directory:
 
-  ```pyfunctiontypecomment
-   cd [Path]
-   ```
 
 2. To generate Figure 4:
 
@@ -86,39 +66,6 @@ or submit an issue.
    python graph_province_efficieny_factor_map.py
    ```
 
-Installation of Web Driver: You'll need to install the Web Driver to scrape data. You can follow the necessary installation steps from Selenium's documentation.
-
-Selenium:
-- See [Web Driver Installation](https://www.selenium.dev/selenium/docs/api/py/index.html#installing)
-
-
-## Getting Started
-
-### Paths
-You can follow the instructions in these files to work on the analysis or data scraping part. Google colab version of the codes will be uploaded in next days.
-
 - [`analysis`](https://github.com/asen16/high-schools-analysis/tree/main/analysis) : Shows how master data is filtered, analyzed and data visualized.
 - [`data_scraping`](https://github.com/asen16/high-schools-analysis/tree/main/data_scraping): Explains how raw data is scraped from its source.
 
-## Structure of the Code
-
-The code repository is organized into the following components:
-
-- The datasets are located in the `analysis/data` folder.
-- The graphs are located in the `analysis/graphs` folder.
-- The tabels are located in the `analysis/tabel` folder.
-- The visualization and analysis programs are located in the `analysis` folder.
-- The raw data are located in the `data_scraping/DATA` folder.
-- The data scraping program is located in the `data_scraping` folder.
-
-## Releases and Contributing
-
-- Please let us know if you encounter any bugs by filing a Github issue.
-- We appreciate all your contributions. If you plan to contribute new Method, Data, or anything else, please see our [contribution guidelines](https://www.github.com/asen16/high-schools-analysis/blob/main/CONTRIBUTING.md).
-
-## Changelog
-
-For the complete release history, see [CHANGELOG.md](https://www.github.com/asen16/high-schools-analysis/blob/main/CHANGELOG.md).
-
-## License
-Analysis of Public High Schools Admitting Students by Examination in Turkey is released under the [MIT License](https://www.github.com/asen16/high-schools-analysis/blob/main/LICENSE).
