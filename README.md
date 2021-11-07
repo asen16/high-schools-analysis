@@ -11,7 +11,7 @@ Along with the foundation, different studies can be done about high schools and 
 **[Analysis of Public High Schools Admitting Students by Examination in Turkey](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3939070)**,
 *Beyza Arslan, Anıl Şen.*
 
-***This study was entitled to receive second prize in the Education Category from The Scientific and Technological Research Council of Turkey.***
+***This study has received second prize in the Education Category from The Scientific and Technological Research Council of Turkey.***
 
 If you use this code or data in your research, please cite us using this BibTeX entry:
 
