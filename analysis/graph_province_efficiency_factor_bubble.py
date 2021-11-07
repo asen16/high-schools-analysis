@@ -49,7 +49,7 @@ fig = px.scatter(provinces,
 
 
 #html type: <br> = space ; <b> %{data} </b> = bold ;
-#To add data to hover template,  custom data list must be added to px.scatter
+#To add data to hover template,  custom data list must be added to px.scatter.
 fig.update_traces(
     textposition='top center',
     hovertemplate="<br>".join([
