@@ -27,7 +27,7 @@ If you use this code or data in your research, please cite us using this BibTeX 
 ## Contact Us
 
 If you're interested in extending this work, have an idea or any questions:
-- email us @ barslan16@ku.edu.tr or asen16@ku.edu.tr
+- email us barslan16@ku.edu.tr or asen16@ku.edu.tr
 
 or submit an issue.
 
