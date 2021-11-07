@@ -60,7 +60,7 @@ fig.update_layout(
 )
 
 #html type: <br> = space ; <b> %{data} </b> = bold ;
-#to add data to hover template, px.scatter custom data list must be added
+#to add data to hover template,  custom data list must be added to px.scatter
 fig.update_traces(
     hovertemplate="<br>".join([
         "<b> %{customdata[0]} </b>",
