@@ -59,7 +59,7 @@ for i in range(1, 7):
     exec(command_variable)
 """
 
-#veride öğrencilerin bilgileri yer alıyor, liselerin bilgilerinin yer aldığı bir dataframe oluşturacağız.
+#The data includes the information of the students, and we will create a dataframe with the information of high schools.
 data1,data2,data3,data4,data5,data6=[],[],[],[],[],[]
 
 datahschool1,datahschool2,datahschool3,datahschool4=[],[],[],[]
@@ -68,61 +68,61 @@ datahschool5,datahschool6,datahschool7,datahschool8=[],[],[],[]
 
 
 
-# tüm unique lise isimlerini loop'a alıyoruz
+# we loop all unique high school names
 for i in pd.unique(data["high_school_name"]):
-    #bu lisede yer alan tüm öğrencilerin verisi
+    #data of all students in this high school
     k_data=data.loc[data['high_school_name']==i]
-    #okulun öğrenci sayısının birden fazla olması gerekiyor
+    #The school must have more than one student
     if len(k_data)>0:
-        #yeni mezun olan öğrencilerin verilerini filtreliyor
+        #filters the data of newly graduated students
         newly=k_data[k_data["newly_graduated_student"].values==1]
-        #eğer yeni öğrenci sayısı birden fazlaysa,
-        #bu öğrencilerin diploma notlarının ve üniversite sınavı
-        #puanlarının ortalamasını alıp listelere ekliyoruz
+        #If the number of new students is more than one,
+        #we take the average of their diploma grades
+        #and university exam scores and add them to the lists.
         if len(newly) >0:
            data1.append(np.average(newly["lowest_score"]))
            data4.append(np.average(newly["average_diploma_grade"]))
-        #hiç öğrenci yoksa 0'lar ekliyoruz.
+        #If there are no students, we add 0's.
         else:
             data1.append(0)
             data4.append(0)
-        #önceden mezun olan öğrencilerin verilerini filtreliyor
+        #filters data from previously graduated students
         grad=k_data[k_data["former_graduate_student"].values==1]
-        #eğer önceden mezun olan öğrenci sayısı birden fazlaysa,
-        #bu öğrencilerin diploma notlarının ve üniversite sınavı
-        #puanlarının ortalamasını alıp listelere ekliyoruz
+        #If there is more than one student who graduated beforehand,
+        #we take the average of the diploma grades 
+        #and university exam scores of these students and add them to the lists.
         if len(grad) >0:
             data5.append(np.average(grad["lowest_score"]))
             data6.append(np.average(grad["average_diploma_grade"]))
-        #hiç öğrenci yoksa 0'lar ekliyoruz.
+        #If there are no students, we add 0's.
         else:
             data5.append(0)
             data6.append(0)
         
-        #sırayla gerekli bilgileri listelere ekliyoruz.
+        #we add the necessary information to the lists in order.
             
-        #lisenin toplam yeni mezun ettiği öğrenci sayısı
+        #The total number of newly graduated students of the high school
         data2.append(np.sum(k_data["newly_graduated_student"]))
-        #lisenin toplam eskiden mezun ettiği öğrenci sayısı
+        #total number of students formerly graduated by the high school
         data3.append(np.sum(k_data["former_graduate_student"]))
-        #lisenin ismi
+        #name of high school
         datahschool1.append(np.array(k_data["high_school_name"])[0])
-        #lisenin percentile'ı
+        #percentile of high school
         datahschool2.append(np.array(k_data["percentile_of_2019"])[0])
-        #lisenin kotası
+        #quota of high school
         datahschool3.append(np.array(k_data["high_school_quota_2019"])[0])
-        #lisenin prep school'unun olup olmamaması
+        #whether the high school has a preparation school
         datahschool4.append(np.array(k_data["high_school_with_prep"])[0])
-        #lisenin yurdunun olup olmamaması
+        #whether the high school has dormitory
         datahschool5.append(np.array(k_data["high_school_dormitory"])[0])
-        #lisenin türü
+        #type of high school
         datahschool6.append(np.array(k_data["high_school_type"])[0])
-        #lisenin bulunduğu ilin gdp per capitası
+        #gdp per capita of the province where the high school is located
         datahschool7.append(np.array(k_data["gdpdata"])[0])
-        #lisenin bulunduğu il
+        #the province where the high school is located
         datahschool8.append(np.array(k_data["province"])[0])
 
-#oluşturduğumuz listelerle bir dataframe oluşturuyoruz.    
+#we create a dataframe with the lists we created.    
 
 highschool=pd.DataFrame({"lowest_score":data1,
                      "newly_graduated_student":data2,
@@ -138,15 +138,15 @@ highschool=pd.DataFrame({"lowest_score":data1,
                      "province":datahschool8}           
     )
 
-#liselerin faktör verimliliklerini aşağıdaki formülle hesaplıyoruz:
+#We calculate the efficiency factor of high schools with the following formula:
     #(newly graduated student* high school average university exam score)/high school quota
 
 highschool["factor"]=list((highschool["newly_graduated_student"]*highschool["lowest_score"])/highschool["high_school_quota_2019"])
 
-#differanibale olabilmesi için boyutlar arasındaki farkı arttıyoruz.
+#we increase the difference between sizes so that it can be noticeable
 highschool["bubblesize"]=(highschool["high_school_quota_2019"]**1.5)/10
 
-#her lise tipinin açıklamasını ekliyoruz
+#we add description of each high school type
 high_school_type=[]
 for number in highschool["high_school_type"]:
     if number==1:
@@ -164,7 +164,7 @@ for number in highschool["high_school_type"]:
     if number==5:
         high_school_type.append("Social Science High School")
 
-#yukarıdaki veriyi dataframe'e ekliyoruz.
+#we add the above data to the dataframe.
 highschool["high_school_type"]=high_school_type
 
 #If you want, you can work on this excel file by 
@@ -174,8 +174,8 @@ highschool["high_school_type"]=high_school_type
 
 
 
-#veride öğrencilerin bilgileri yer alıyor, şehirlerin bilgilerinin yer aldığı bir dataframe oluşturacağız.
-#yukarıda süreci şehirler için tekrar ediyoruz.
+#the data includes the information of the students, we will create a dataframe with the information of the provinces.
+#we repeat the process above for provinces.
 
 province1,province2,province3,province4,province5,province6=[],[],[],[],[],[]
 
