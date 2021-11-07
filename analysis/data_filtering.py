@@ -46,6 +46,11 @@ data["high_school_with_prep"] = data["high_school_with_prep"].map({"Hazırlık +
 
 university_exam_data=data
 
+#If you want, you can work on this excel file by 
+#converting this dataframe to an excel file.
+
+#university_exam_data.to_excel("data/university_exam_dataset.xlsx",sheet_name='Data')
+
 
 #you can run the following loop to create the lists
 """
