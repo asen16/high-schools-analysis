@@ -122,7 +122,7 @@ The code repository is organized into the following components:
 
 ## Changelog
 
-For the complete release history, see [CHANGELOG.md](www.github.com/asen16/high-schools-analysis/blob/main/CHANGELOG.md).
+For the complete release history, see [CHANGELOG.md](https://www.github.com/asen16/high-schools-analysis/blob/main/CHANGELOG.md).
 
 ## License
-Analysis of Public High Schools Admitting Students by Examination in Turkey is released under the [MIT License](LICENSE.txt).
+Analysis of Public High Schools Admitting Students by Examination in Turkey is released under the [MIT License](https://www.github.com/asen16/high-schools-analysis/blob/main/LICENSE.txt).
