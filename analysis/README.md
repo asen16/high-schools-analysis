@@ -1,7 +1,6 @@
 # Analysis Part
 
 
-![Screenshot](graphs/graph_high_school_efficiency_factor_bar.pdf)
 
 
 
@@ -39,7 +38,7 @@ or submit an issue.
 To get started, you'll need to have Python 3.8+ installed.
 
 
-### Installing from Source
+## Creating Graphs
 
 1. Clone this repository to your local machine:
 
