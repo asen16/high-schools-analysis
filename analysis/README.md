@@ -21,12 +21,13 @@ Run for data filtering:
 ## Regression Analysis
 
 1. To find correlation coefficients
-2. To create OLS Model and fit
-3. To find predicted values and compare with real values
-4. To visualize the predicted values vs real values
-5. Hypothesis testing 
-6. To check Multicollinearity
-7. To create Table 1 and Table 2 of the study
+2. To make a heatmap graph of correlation coefficients
+3. To create OLS Model and fit
+4. To find predicted values and compare with real values
+5. To visualize the predicted values vs real values
+6. Hypothesis testing 
+7. To check Multicollinearity
+8. To create Table 1 and Table 2 of the study
 
   ```pyfunctiontypecomment
    python regression.py
@@ -37,20 +38,20 @@ Run for data filtering:
 
 
 
-2. To generate Figure 4 of the study:
+1. To generate Figure 4 of the study:
 
 
   ```pyfunctiontypecomment
    python graph_high_school_exam_bubble.py
    ```
 
-3. To generate Figure 5a of the study:
+2. To generate Figure 5a of the study:
 
  ```pyfunctiontypecomment
    python graph_high_school_efficiency_factor_bubble.py
    ```
    
-4. To generate Figure 5b of the study:
+3. To generate Figure 5b of the study:
 
  ```pyfunctiontypecomment
    python graph_high_school_efficiency_factor_bar.py
@@ -61,7 +62,7 @@ Run for data filtering:
  ```pyfunctiontypecomment
    python graph_province_efficiency_factor_bubble.py
    ```
-4. To generate Figure 7b of the study:
+5. To generate Figure 7b of the study:
 
  ```pyfunctiontypecomment
    python graph_province_efficieny_factor_map.py
