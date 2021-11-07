@@ -78,15 +78,11 @@ You can follow the instructions in these files to work on the analysis or data s
 
 The code repository is organized into the following components:
 
-| Component | Description |
-| --- | --- |
-| [Figure 4][Figure 5][Figure 5](https://www.github.com/salesforce/ai-economist/blob/master/ai_economist/foundation/base) | Contains base classes to can be extended to define Agents, Components and Scenarios. |
-| [agents](https://www.github.com/salesforce/ai-economist/blob/master/ai_economist/foundation/agents) | Agents represent economic actors in the environment. Currently, we have mobile Agents (representing workers) and a social planner (representing a government). |
-| [entities](https://www.github.com/salesforce/ai-economist/blob/master/ai_economist/foundation/entities) | Endogenous and exogenous components of the environment. Endogenous entities include labor, while exogenous entity includes landmarks (such as Water and Grass) and collectible Resources (such as Wood and Stone). |
-| [components](https://www.github.com/salesforce/ai-economist/blob/master/ai_economist/foundation/components) | Components are used to add some particular dynamics to an environment. They also add action spaces that define how Agents can interact with the environment via the Component. |
-| [scenarios](https://www.github.com/salesforce/ai-economist/blob/master/ai_economist/foundation/scenarios) | Scenarios compose Components to define the dynamics of the world. It also computes rewards and exposes states for visualization. |
 
-- The datasets (including the real-world data on COVID-19) are located in the `ai_economist/datasets` folder.
+- The datasets are located in the `analysis/data` folder.
+- The graphs are located in the `analysis/graphs` folder.
+- The tabels are located in the `analysis/tabel` folder.
+- The visualization and analysis programs are located in the `analysis` folder.
 
 ## Releases and Contributing
 
