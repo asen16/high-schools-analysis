@@ -3,7 +3,7 @@
 
 This repo contains a flexible, easy to understand and modifiable foundation for scraping, cleaning, analyzing and visualizing **publicly available education data of Turkey.**
 
-Code was written in Python 3.6
+Code was written in Python 3.8.5
 
 Along with the foundation, different studies can be done about high schools and universities in Turkey. We conducted a study on the efficiency of public high schools in Turkey, as detailed in the following papers:
 
@@ -27,11 +27,12 @@ If you use this code or data in your research, please cite us using this BibTeX 
 
 If you're interested in extending this work, having an idea or having any questions:
 - email us @ barslan16@ku.edu.tr or asen16@ku.edu.tr
+
 or submit an issue.
 
 ## Installation Instructions
 
-To get started, you'll need to have Python 3.6+ installed.
+To get started, you'll need to have Python 3.8+ installed.
 
 
 ### Installing from Source
@@ -56,21 +57,12 @@ To get started, you'll need to have Python 3.6+ installed.
    ```
    in your shell.
 
-   OR
 
-   b) Install as an editable Python package
-  ```pyfunctiontypecomment
-   cd ai-economist
-   pip install -e .
-   ```
+Installation of Web Driver: You'll need to install the Web Driver to scrape data. You can follow the necessary installation steps from Selenium's documentation.
 
-Useful tip: for quick access, add the following to your ~/.bashrc or ~/.bash_profile:
+Selenium:
+- See [Web Driver Installation](https://www.selenium.dev/selenium/docs/api/py/index.html#installing)
 
-```pyfunctiontypecomment
-alias aiecon="conda activate ai-economist; cd <local path to ai-economist>"
-```
-
-You can then simply run `aiecon` once to activate the conda environment.
 
 ### Testing your Install
 
