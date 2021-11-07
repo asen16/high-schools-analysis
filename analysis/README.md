@@ -25,7 +25,7 @@
 4. To visualize the predicted values vs real values
 5. Hypothesis testing 
 6. To check Multicollinearity
-7. To create Table 1 and Table 2
+7. To create Table 1 and Table 2 of the study
 
   ```pyfunctiontypecomment
    python regression.py
@@ -36,31 +36,31 @@
 
 
 
-2. To generate Figure 4:
+2. To generate Figure 4 of the study:
 
 
   ```pyfunctiontypecomment
    python graph_high_school_exam_bubble.py
    ```
 
-3. To generate Figure 5a:
+3. To generate Figure 5a of the study:
 
  ```pyfunctiontypecomment
    python graph_high_school_efficiency_factor_bubble.py
    ```
    
-4. To generate Figure 5b:
+4. To generate Figure 5b of the study:
 
  ```pyfunctiontypecomment
    python graph_high_school_efficiency_factor_bar.py
    ```
    
-4. To generate Figure 7a:
+4. To generate Figure 7a of the study:
 
  ```pyfunctiontypecomment
    python graph_province_efficiency_factor_bubble.py
    ```
-4. To generate Figure 7b:
+4. To generate Figure 7b of the study:
 
  ```pyfunctiontypecomment
    python graph_province_efficieny_factor_map.py
