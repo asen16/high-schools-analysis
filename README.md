@@ -1,11 +1,12 @@
 # Analysis of Public High Schools Admitting Students by Examination in Turkey
 
-This repo contains an implementation of Foundation, a framework for flexible, modular, and composable environments that **model socio-economic behaviors and dynamics in a society with both agents and governments**.
+
+This repo contains a flexible, easy to understand and modifiable foundation for scraping, cleaning, analyzing and visualizing **publicly available education data of Turkey.**
 
 Code was written in Python 3.6
 
+Along with the foundation, different studies can be done about high schools and universities in Turkey. We conducted a study on the efficiency of public high schools in Turkey, as detailed in the following papers:
 
-This simulation can be used in conjunction with reinforcement learning to learn optimal economic policies, as detailed in the following papers:
 
 **[Analysis of Public High Schools Admitting Students by Examination in Turkey](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3939070)**,
 *Beyza Arslan, Anıl Şen.*
@@ -21,14 +22,6 @@ If you use this code or data in your research, please cite us using this BibTeX 
   year={2021}
 }
 ```
-
-
-
-## Simulation Cards: Ethics Review and Intended Use
-
-Please see our [Simulation Card](https://github.com/salesforce/ai-economist/blob/master/Simulation_Card_Foundation_Economic_Simulation_Framework.pdf) for a review of the intended use and ethical review of our framework.
-
-Please see our [COVID-19 Simulation Card](https://github.com/salesforce/ai-economist/blob/master/COVID-19_Simulation-Card.pdf) for a review of the ethical aspects of the pandemic simulation (and as fitted for COVID-19).
 
 ## Contact Us
 
