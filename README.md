@@ -74,15 +74,14 @@ You can follow the instructions in these files to work on the analysis or data s
 
 ## Structure of the Code
 
-- The simulation is located in the `ai_economist/foundation` folder.
-
 The code repository is organized into the following components:
-
 
 - The datasets are located in the `analysis/data` folder.
 - The graphs are located in the `analysis/graphs` folder.
 - The tabels are located in the `analysis/tabel` folder.
 - The visualization and analysis programs are located in the `analysis` folder.
+- The raw data are located in the `data_scraping/DATA` folder.
+- The data scraping program is located in the `data_scraping` folder.
 
 ## Releases and Contributing
 
