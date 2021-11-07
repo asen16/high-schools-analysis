@@ -41,7 +41,7 @@ To get started, you'll need to have Python 3.8+ installed.
 1. Clone this repository to your local machine:
 
   ```
-   git clone www.github.com/asen16/high-schools-analysis
+   git clone https://github.com/asen16/high-schools-analysis.git
    ```
 
 2. Change directory to the directory where requirements.txt is located.
