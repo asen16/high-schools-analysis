@@ -1,6 +1,6 @@
 DATA SCRAPING
 # Data Scraping Part
-The Council of Higher Education shared various data about universities between 2018-2020. In the study, these data were scrapped and an analysis was made.
+The Council of Higher Education shared various data about universities between 2018-2020 on its website. In the study, these data were scrapped and an analysis was made.
 
 The program scrapes the data of students in a total of 10617 departments from 223 different universities.
 
