@@ -2,9 +2,9 @@
 
 ## Data Filtering
 [`data/public_high_schools_data.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/public_high_schools_data.xlsx) is the data reached as a result of cleaning and merging operations. Data sets of provinces, high schools and students were created by filtering this data:
--[`data/provinces_dataset.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/provinces_dataset.xlsx)
--[`data/high_school_dataset.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/high_school_dataset.xlsx)
--[`data/university_exam_dataset.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/university_exam_dataset.xlsx)
+ - [`data/provinces_dataset.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/provinces_dataset.xlsx)
+ - [`data/high_school_dataset.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/high_school_dataset.xlsx)
+ -  [`data/university_exam_dataset.xlsx`](https://github.com/asen16/high-schools-analysis/blob/main/analysis/data/university_exam_dataset.xlsx)
 
 
 Change directory:
