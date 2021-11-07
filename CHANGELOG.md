@@ -4,4 +4,4 @@
 
 ## Tutorials and Documentation
 
-- Analysis and data visualization files.
+- Data scraping, analysis and data visualization files.
