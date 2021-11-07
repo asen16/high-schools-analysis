@@ -33,9 +33,14 @@ If you're interested in extending this work, having an idea or having any questi
 
 or submit an issue.
 
-## Creating Tables
+## Regression Analysis
 
-2. To generate Table 1 and Table 2:
+1. To find correlation coefficients
+2. To create OLS Model and fit
+3. To find predicted values and compare with real values
+4. Hypothesis testing 
+5. To check Multicollinearity
+6. To create Table 1 and Table 2
 
   ```pyfunctiontypecomment
    python regression.py
