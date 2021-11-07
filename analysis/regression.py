@@ -112,8 +112,8 @@ fig_prediction_vs_factor.update_layout(
     )
 )
 fig_prediction_vs_factor.show()
-fig_prediction_vs_factor.write_html(graph_location+"prediction_vs_factor.html",auto_open=True)
-
+fig_prediction_vs_factor.write_html(graph_location+"prediction_vs_factor.html",auto_open=True) 
+fig_prediction_vs_factor.write_image(graph_location+"prediction_vs_factor.pdf") #save as pdf file
 # =============================================================================
 # Hypothesis Testing and Check Multicollinearity
 # =============================================================================
@@ -198,6 +198,7 @@ fig_prediction_vs_exam.update_layout(
 )
 fig_prediction_vs_exam.show()
 fig_prediction_vs_exam.write_html(graph_location+"prediction_vs_exam.html",auto_open=True)
+fig_prediction_vs_exam.write_image(graph_location+"prediction_vs_exam.pdf") #save as pdf file
 
 # =============================================================================
 # Hypothesis Testing and Check Multicollinearity
