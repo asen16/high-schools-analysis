@@ -26,7 +26,7 @@ If you use this code or data in your research, please cite us using this BibTeX 
 
 ## Contact Us
 
-If you're interested in extending this work, having an idea or having any questions:
+If you're interested in extending this work, have an idea or any questions:
 - email us @ barslan16@ku.edu.tr or asen16@ku.edu.tr
 
 or submit an issue.
@@ -87,7 +87,7 @@ The code repository is organized into the following components:
 ## Releases and Contributing
 
 - Please let us know if you encounter any bugs by filing a Github issue.
-- We appreciate all your contributions. If you plan to contribute new Method, Data, or anything else, please see our [contribution guidelines](https://www.github.com/asen16/high-schools-analysis/blob/main/CONTRIBUTING.md).
+- We appreciate all your contributions. If you plan to contribute a new Method, Data, or anything else, please see our [contribution guidelines](https://www.github.com/asen16/high-schools-analysis/blob/main/CONTRIBUTING.md).
 
 ## Changelog
 
