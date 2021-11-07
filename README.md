@@ -66,15 +66,11 @@ Selenium:
 
 ## Getting Started
 
-### Tutorials
-You can follow the instructions in these files to work on the analysis or data scraping part.
-You can follow the instructions in these two folders to proceed in the [`analysis`](https://github.com/asen16/high-schools-analysis/tree/main/analysis) or [`data_scraping`](https://github.com/asen16/high-schools-analysis/tree/main/data_scraping) part. Google colab version of the codes will be uploaded in next days.
+### Paths
+You can follow the instructions in these files to work on the analysis or data scraping part. Google colab version of the codes will be uploaded in next days.
 
-- [`analysis`](https://github.com/asen16/high-schools-analysis/tree/main/analysis): xakfhjaıyhfashfashba  ahfahsfb abfsıasvfsahdbksabkd
-- [tutorials/economic_simulation_advanced.ipynb](https://www.github.com/salesforce/ai-economist/blob/master/tutorials/economic_simulation_advanced.ipynb) ([Try this on Colab](http://colab.research.google.com/github/salesforce/ai-economist/blob/master/tutorials/economic_simulation_advanced.ipynb)!): Explains how Foundation is built up using composable and flexible building blocks.
-- [tutorials/covid19_and_economic_simulation.ipynb](https://www.github.com/salesforce/ai-economist/blob/master/tutorials/covid19_and_economic_simulation.ipynb) ([Try this on Colab](http://colab.research.google.com/github/salesforce/ai-economist/blob/master/tutorials/covid19_and_economic_simulation.ipynb)!): A tutorial on how to work specifically with the COVID-19 pandemic and economy simulation.
-
-To run these notebooks *locally*, you need [Jupyter](https://jupyter.org). See [https://jupyter.readthedocs.io/en/latest/install.html](https://jupyter.readthedocs.io/en/latest/install.html) for installation instructions and [(https://jupyter-notebook.readthedocs.io/en/stable/](https://jupyter-notebook.readthedocs.io/en/stable/) for examples of how to work with Jupyter.
+- [`analysis`](https://github.com/asen16/high-schools-analysis/tree/main/analysis) : Shows how master data is filtered, analyzed and data visualized.
+- [`data_scraping`](https://github.com/asen16/high-schools-analysis/tree/main/data_scraping): Explains how raw data is scraped from its source.
 
 ## Structure of the Code
 
