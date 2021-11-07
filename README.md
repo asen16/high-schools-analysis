@@ -118,11 +118,11 @@ The code repository is organized into the following components:
 ## Releases and Contributing
 
 - Please let us know if you encounter any bugs by filing a Github issue.
-- We appreciate all your contributions. If you plan to contribute new Components, Scenarios Entities, or anything else, please see our [contribution guidelines](https://www.github.com/salesforce/ai-economist/blob/master/CONTRIBUTING.md).
+- We appreciate all your contributions. If you plan to contribute new Components, Scenarios Entities, or anything else, please see our [contribution guidelines](https://www.github.com/asen16/high-schools-analysis/blob/main/CONTRIBUTING.md).
 
 ## Changelog
 
-For the complete release history, see [CHANGELOG.md](https://www.github.com/salesforce/ai-economist/blob/master/CHANGELOG.md).
+For the complete release history, see [CHANGELOG.md](www.github.com/asen16/high-schools-analysis/blob/main/CHANGELOG.md).
 
 ## License
 Analysis of Public High Schools Admitting Students by Examination in Turkey is released under the [MIT License](LICENSE.txt).
