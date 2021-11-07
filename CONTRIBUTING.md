@@ -4,4 +4,4 @@ Thanks for considering contributing to study!
 
 Please contact us!
 
-email us barslan16@ku.edu.tr or asen16@ku.edu.tr
+email us asen16@ku.edu.tr or barslan16@ku.edu.tr 
